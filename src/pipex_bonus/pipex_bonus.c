@@ -6,7 +6,7 @@
 /*   By: rertzer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/25 10:15:19 by rertzer           #+#    #+#             */
-/*   Updated: 2023/02/03 11:03:03 by rertzer          ###   ########.fr       */
+/*   Updated: 2023/02/04 11:18:49 by rertzer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ int	main(int argc, char **argv, char **envp)
 		argmin = 5;
 	if (argc < argmin)
 	{
-		ft_putstr_fd(ARG_NB, 2);
+		ft_putendl_fd(ARG_NB, 2);
 		return (1);
 	}
 	pp_init_ppdata(&data, argc, argv);
